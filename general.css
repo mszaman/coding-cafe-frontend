@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Lora", serif;
+	/* font-family: "Montserrat", sans-serif; */
+	font-size: 1.6rem;
+	color: #343a40;
+}
+
+a,
+a:link,
+a:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+input {
+	display: block;
+	width: 100%;
+	font-size: 1.6rem;
+	padding: 0.8rem 1.6rem;
+	border: 1px solid #ff5a5a;
+	border-radius: 5px;
+}
+
+input:focus {
+	outline: 1px solid #ff5a5a;
+}
+
+ul {
+	list-style: none;
+}
+
+.icon {
+	height: 2.4rem;
+	width: 2.4rem;
+}
+
+/*
+///////////////
+//// FONTS ////
+///////////////
+--- Lora: 400, 500, 600, 700
+--- Montserrat: 400, 500, 600, 700
+
+
+
+////////////////
+//// COLORS ////
+////////////////
+---Tints:
+#ff5a5a
+
+---Primary:
+#ff3131
+
+---Shades: 
+
+---Grays:
+#343a40
+#868e96
+#888
+#adb5bd
+#fff
+
+*/

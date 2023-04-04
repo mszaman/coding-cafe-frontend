@@ -4,6 +4,21 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- END FONTS -->
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="general.css" />
+		<link rel="stylesheet" href="style.css" />
+		<!-- END CSS -->
+
 		<title>Coding Cafe</title>
 	</head>
 	<body>
@@ -11,25 +26,22 @@
 		<header class="header">
 			<nav class="navigation">
 				<!-- LOGO -->
-				<div class="logo">
-					<img src="img/logo.png" alt="Coding Cafe Logo" />
-				</div>
+				<a href="#"
+					><img class="logo" src="img/logo.png" alt="Coding Cafe Logo"
+				/></a>
 				<!-- END LOGO -->
 
 				<!-- SEARCH BOX -->
-				<div class="search-box">
+				<form class="search-form">
 					<input
 						type="text"
 						class="search-input"
 						placeholder="Search your content..."
 					/>
 					<button class="btn-search">
-						<img
-							alt="svgImg"
-							src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTAiIGhlaWdodD0iOTAiCnZpZXdCb3g9IjAgMCAzMCAzMCI+CjxwYXRoIGQ9Ik0gMTMgMyBDIDcuNDg4OTk3MSAzIDMgNy40ODg5OTcxIDMgMTMgQyAzIDE4LjUxMTAwMyA3LjQ4ODk5NzEgMjMgMTMgMjMgQyAxNS4zOTY1MDggMjMgMTcuNTk3Mzg1IDIyLjE0ODk4NiAxOS4zMjIyNjYgMjAuNzM2MzI4IEwgMjUuMjkyOTY5IDI2LjcwNzAzMSBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjYuNzA3MDMxIDI1LjI5Mjk2OSBMIDIwLjczNjMyOCAxOS4zMjIyNjYgQyAyMi4xNDg5ODYgMTcuNTk3Mzg1IDIzIDE1LjM5NjUwOCAyMyAxMyBDIDIzIDcuNDg4OTk3MSAxOC41MTEwMDMgMyAxMyAzIHogTSAxMyA1IEMgMTcuNDMwMTIzIDUgMjEgOC41Njk4Nzc0IDIxIDEzIEMgMjEgMTcuNDMwMTIzIDE3LjQzMDEyMyAyMSAxMyAyMSBDIDguNTY5ODc3NCAyMSA1IDE3LjQzMDEyMyA1IDEzIEMgNSA4LjU2OTg3NzQgOC41Njk4Nzc0IDUgMTMgNSB6Ij48L3BhdGg+Cjwvc3ZnPg=="
-						/>
+						<ion-icon name="search" class="icon icon--search"></ion-icon>
 					</button>
-				</div>
+				</form>
 				<!-- END SEARCH BOX -->
 
 				<!-- NAV LINKS -->
@@ -54,5 +66,16 @@
 			</nav>
 		</header>
 		<!-- END HEADER SECTION -->
+
+		<!-- IONICONS SCRIPTS -->
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+		<!-- END IONICONS SCRIPTS -->
 	</body>
 </html>
