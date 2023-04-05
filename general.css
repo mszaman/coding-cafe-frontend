@@ -10,8 +10,8 @@ html {
 
 body {
 	font-family: "Lora", serif;
-	/* font-family: "Montserrat", sans-serif; */
-	font-size: 1.6rem;
+	line-height: 1;
+	font-weight: 400;
 	color: #343a40;
 }
 
@@ -58,9 +58,22 @@ ul {
 ///////////////
 //// FONTS ////
 ///////////////
---- Lora: 400, 500, 600, 700
---- Montserrat: 400, 500, 600, 700
+---font-family
+default: 
+Lora
+Montserrat
 
+---default: 
+400
+500
+600
+700
+====================
+====================
+
+---font-sizes: 
+
+10 / 12 / 14 / 16 / 18 / 20 / 22 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 
 ////////////////
