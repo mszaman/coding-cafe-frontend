@@ -107,6 +107,12 @@ ul {
 	grid-template-columns: repeat(3, 1fr);
 }
 
+.container {
+	max-width: 130rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
 .icon {
 	height: 2.4rem;
 	width: 2.4rem;
