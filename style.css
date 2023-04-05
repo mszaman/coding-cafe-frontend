@@ -124,12 +124,11 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 3.2rem;
-	width: 80%;
-	padding: 2.4rem 0;
+	width: 100%;
+	padding: 3.2rem 0;
 	margin: 0 auto;
 	border-radius: 0.5rem;
 	box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.05);
-	font-family: "Montserrat", sans-serif;
 }
 
 .topic-logo {
@@ -141,6 +140,7 @@
 .total-topic {
 	display: inline-block;
 	font-size: 4.4rem;
+	font-family: "Montserrat", sans-serif;
 	background-color: #feecec;
 	padding: 0.4rem 1.6rem;
 	border-radius: 10rem;
