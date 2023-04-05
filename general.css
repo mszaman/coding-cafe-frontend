@@ -12,7 +12,7 @@ body {
 	font-family: "Lora", serif;
 	line-height: 1;
 	font-weight: 400;
-	color: #343a40;
+	color: #555;
 }
 
 a,
@@ -71,7 +71,7 @@ Montserrat
 ====================
 ====================
 
----font-sizes: 
+---font-sizes (in px): 
 
 10 / 12 / 14 / 16 / 18 / 20 / 22 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
@@ -89,9 +89,19 @@ Montserrat
 
 ---Grays:
 #343a40
+#555
 #868e96
 #888
 #adb5bd
 #fff
+
+////////////////////////
+//// SPACING SYSTEM ////
+////////////////////////
+
+---padding-margin-gap (in px):
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
 
 */
