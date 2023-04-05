@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+*:focus {
+	outline: none;
+}
+
 html {
 	font-size: 62.5%;
 }
@@ -20,7 +24,10 @@ a:link,
 a:visited {
 	display: inline-block;
 	text-decoration: none;
-	color: inherit;
+	/* color: inherit; */
+}
+a:focus {
+	outline: 1px solid #f25151;
 }
 
 input {
@@ -40,9 +47,60 @@ ul {
 	list-style: none;
 }
 
+.primary-heading {
+	font-size: 4.8rem;
+	color: #444;
+	line-height: 1.05;
+	letter-spacing: -1.25px;
+	margin-bottom: 3.2rem;
+}
+
+.btn:link,
+.btn:visited {
+	padding: 1.6rem 3.2rem;
+	font-size: 1.6rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	border-radius: 0.5rem;
+}
+
+.btn--fill:link,
+.btn--fill:visited {
+	background-color: #f03e3e;
+	color: #fff;
+	border: 0.1rem solid #f03e3e;
+	transition: all 0.3s;
+}
+
+.btn--fill:hover,
+.btn--fill:active {
+	background-color: #c03232;
+	color: #fff;
+	border: 0.1rem solid #c03232;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+	border: 0.1rem solid #f03e3e;
+	color: #f03e3e;
+	background-color: #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+	border: 0.1rem solid #f03e3e;
+	color: #fff;
+	background-color: #f03e3e;
+}
+
 .grid {
 	display: grid;
 	align-items: center;
+	gap: 9.6rem;
+}
+
+.grid--2-cols {
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-cols {
@@ -53,6 +111,24 @@ ul {
 	height: 2.4rem;
 	width: 2.4rem;
 }
+
+/* 
+========================
+======HELPER CLASS======
+========================
+
+*/
+
+.margin-right-sm {
+	margin-right: 1.6rem !important;
+}
+
+/* 
+============================
+======END HELPER CLASS======
+============================
+
+*/
 
 /*
 ///////////////
@@ -80,6 +156,7 @@ Montserrat
 //// COLORS ////
 ////////////////
 ---Tints:
+#feecec
 #f25151
 
 
@@ -91,6 +168,7 @@ Montserrat
 
 #ff3131
 ---Shades: 
+#c03232
 
 ---Grays:
 #343a40
