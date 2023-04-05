@@ -7,7 +7,7 @@
 .header {
 	width: 100%;
 	height: 7rem;
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 1px rgba(242, 81, 81, 0.6);
 }
 
 .navigation {
@@ -42,7 +42,7 @@
 	height: 3.7rem;
 	width: 3.7rem;
 	border: none;
-	background-color: #ff3131;
+	background-color: #f03e3e;
 	padding: 0.6rem;
 	border-top-left-radius: 0.5rem;
 	border-bottom-left-radius: 0.5rem;
@@ -75,7 +75,7 @@
 	height: 100%;
 	display: flex;
 	align-items: center;
-	color: #ff3131;
+	color: #f03e3e;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
 	font-size: 1.4rem;
@@ -85,6 +85,6 @@
 
 .nav-link:hover,
 .nav-link:active {
-	background-color: #ff3131;
+	background-color: #f03e3e;
 	color: #fff;
 }

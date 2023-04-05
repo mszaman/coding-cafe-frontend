@@ -28,12 +28,12 @@ input {
 	width: 100%;
 	font-size: 1.6rem;
 	padding: 0.8rem 1.6rem;
-	border: 1px solid #ff5a5a;
+	border: 1px solid #f25151;
 	border-radius: 5px;
 }
 
 input:focus {
-	outline: 1px solid #ff5a5a;
+	outline: 1px solid #f25151;
 }
 
 ul {
@@ -80,11 +80,16 @@ Montserrat
 //// COLORS ////
 ////////////////
 ---Tints:
+#f25151
+
+
 #ff5a5a
 
 ---Primary:
-#ff3131
+#f03e3e
 
+
+#ff3131
 ---Shades: 
 
 ---Grays:
