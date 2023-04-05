@@ -108,3 +108,55 @@
 .hero-img {
 	width: 100%;
 }
+
+/* 
+///////////////////////
+//// TOPIC SECTION ////
+///////////////////////
+*/
+
+.topic-section {
+	padding: 9.6rem 0;
+}
+
+.topic-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3.2rem;
+	width: 80%;
+	padding: 2.4rem 0;
+	margin: 0 auto;
+	border-radius: 0.5rem;
+	box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.05);
+	font-family: "Montserrat", sans-serif;
+}
+
+.topic-logo {
+	height: 6.4rem;
+	width: 6.4rem;
+	border-radius: 50%;
+}
+
+.total-topic {
+	display: inline-block;
+	font-size: 4.4rem;
+	background-color: #feecec;
+	padding: 0.4rem 1.6rem;
+	border-radius: 10rem;
+}
+
+.topic--card-more {
+	height: 100%;
+}
+
+.topic--card-more .topic-link {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.topic-link h3:hover,
+.topic-link h3:active {
+	color: #f03e3e;
+}
