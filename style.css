@@ -155,6 +155,20 @@
 }
 
 /* 
+///////////////////////
+//// POSTS SECTION ////
+///////////////////////
+*/
+
+.post-section {
+	padding: 9.6rem 0;
+}
+
+.grid--post {
+	gap: 3.2rem;
+}
+
+/* 
 //////////////////////////
 //// TEAMMATE SECTION ////
 //////////////////////////
@@ -165,11 +179,11 @@
 	padding: 6.4rem 0 9.6rem 0;
 }
 
-.teammate-section .grid {
+/* .teammate-section .grid {
 	display: grid;
 	align-items: center;
 	gap: 6.4rem;
-}
+} */
 
 .card--teammate {
 	gap: 1.6rem;
