@@ -16,6 +16,7 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="helpers.css">
 		<link rel="stylesheet" href="style.css" />
 		<!-- END CSS -->
 
@@ -79,7 +80,7 @@
 						Hello Genious! Explore numerous number of programming concept and
 						share your thought to the worlds.
 					</p>
-					<a href="#" class="btn btn--fill margin-right-sm"
+					<a href="#" class="btn btn--fill margin-rt-md-1"
 						>Become a teammate of us</a
 					>
 					<a href="#" class="btn btn--outline">Learn more &darr;</a>
@@ -97,22 +98,343 @@
 
         <!-- POSTS SECTION -->
         <section class="post-section">
-            <h1 class="primary-heading section-title margin-bottom-md">
+            <h1 class="primary-heading section-title margin-bt-lg-1">
 				Recent Uploads
 			</h1>
-            <div class="container grid grid--2-cols grid-cg-md-4">
+            <div class="container grid grid--2-cols grid--3-rows grid-cg-lg-3 grid-rg-lg-1">
+                <!-- POST CARD -->
                 <div class="card card--post">
-                    <a href="#">
-                        im
+
+                    <!-- POST IMAGE -->
+                    <a href="#" class="post-img-link">
+                        <img class="post-img" src="img/posts/post-js-1.jpg" alt="">
                     </a>
+                    <!-- END POST IMAGE -->
+
+                    <!-- POST BOX -->
+                    <div class="post-box">
+                        <!-- POST TOPICS -->
+                        <ul class="topic-lists">
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">JavaScript</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Web Development</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Frontend</a>
+                            </li>
+                        </ul>
+                        <!-- END POST TOPICS -->
+
+                        <!-- POST TITLE -->
+                        <a href="#">
+                            <h2 class="secondary-heading">
+                                Easiest way to design a login modal using JavaScript
+                            </h2>
+                        </a>
+                        <!-- END POST TITLE -->
+
+                        <!-- POST AUTHOR BOX -->
+                        <div class="author-box">
+                            <div class="author">
+                                <a href="#">
+                                    <img class="post-author-img" src="img/authors/author-1.jpg" alt="Author Image">
+                                </a>
+                                <a class="author-link" href="#">John Stone</a>
+                            </div>
+                            <span class="publish-date">December 08, 2019</span>
+                        </div>
+                        <!-- END POST AUTHOR BOX -->
+
+                        <!-- POST TEXT -->
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tempora modi neque. Tempora officiis, natus incidunt unde harum et nobis adipisci veritatis, sequi minus accusamus?
+                        </p>
+                        <!-- END POST TEXT -->
+                    </div>
+                    <!-- END POST BOX -->
                 </div>
+                <!-- END POST CARD -->
+
+                <!-- POST CARD -->
+                <div class="card card--post">
+
+                    <!-- POST IMAGE -->
+                    <a href="#" class="post-img-link">
+                        <img class="post-img" src="img/posts/post-css-2.jpg" alt="">
+                    </a>
+                    <!-- END POST IMAGE -->
+
+                    <!-- POST BOX -->
+                    <div class="post-box">
+                        <!-- POST TOPICS -->
+                        <ul class="topic-lists">
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">CSS</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Web Development</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Frontend</a>
+                            </li>
+                        </ul>
+                        <!-- END POST TOPICS -->
+
+                        <!-- POST TITLE -->
+                        <a href="#">
+                            <h2 class="secondary-heading">
+                                Advanced CSS hack every designer should know
+                            </h2>
+                        </a>
+                        <!-- END POST TITLE -->
+
+                        <!-- POST AUTHOR BOX -->
+                        <div class="author-box">
+                            <div class="author">
+                                <a href="#">
+                                    <img class="post-author-img" src="img/authors/author-2.jpg" alt="Author Image">
+                                </a>
+                                <a class="author-link" href="#">Natalie Lee-Walsh</a>
+                            </div>
+                            <span class="publish-date">March 08, 2020</span>
+                        </div>
+                        <!-- END POST AUTHOR BOX -->
+
+                        <!-- POST TEXT -->
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tempora modi neque. Tempora officiis, natus incidunt unde harum et nobis adipisci veritatis, sequi minus accusamus?
+                        </p>
+                        <!-- END POST TEXT -->
+                    </div>
+                    <!-- END POST BOX -->
+                </div>
+                <!-- END POST CARD -->
+
+                <!-- POST CARD -->
+                <div class="card card--post">
+
+                    <!-- POST IMAGE -->
+                    <a href="#" class="post-img-link">
+                        <img class="post-img" src="img/posts/post-python-3.jpg" alt="">
+                    </a>
+                    <!-- END POST IMAGE -->
+
+                    <!-- POST BOX -->
+                    <div class="post-box">
+                        <!-- POST TOPICS -->
+                        <ul class="topic-lists">
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Python</a>
+                            </li>
+                        </ul>
+                        <!-- END POST TOPICS -->
+
+                        <!-- POST TITLE -->
+                        <a href="#">
+                            <h2 class="secondary-heading">
+                                Everything you need to know about python
+                            </h2>
+                        </a>
+                        <!-- END POST TITLE -->
+
+                        <!-- POST AUTHOR BOX -->
+                        <div class="author-box">
+                            <div class="author">
+                                <a href="#">
+                                    <img class="post-author-img" src="img/authors/author-3.jpg" alt="Author Image">
+                                </a>
+                                <a class="author-link" href="#">Andrew Kazantzis</a>
+                            </div>
+                            <span class="publish-date">April 07, 2023</span>
+                        </div>
+                        <!-- END POST AUTHOR BOX -->
+
+                        <!-- POST TEXT -->
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tempora modi neque. Tempora officiis, natus incidunt unde harum et nobis adipisci veritatis, sequi minus accusamus?
+                        </p>
+                        <!-- END POST TEXT -->
+                    </div>
+                    <!-- END POST BOX -->
+                </div>
+                <!-- END POST CARD -->
+
+                <!-- POST CARD -->
+                <div class="card card--post">
+
+                    <!-- POST IMAGE -->
+                    <a href="#" class="post-img-link">
+                        <img class="post-img" src="img/posts/post-nodejs-1.jpg" alt="">
+                    </a>
+                    <!-- END POST IMAGE -->
+
+                    <!-- POST BOX -->
+                    <div class="post-box">
+                        <!-- POST TOPICS -->
+                        <ul class="topic-lists">
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">JavaScript</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">NodeJS</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Web Development</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Backend</a>
+                            </li>
+                        </ul>
+                        <!-- END POST TOPICS -->
+
+                        <!-- POST TITLE -->
+                        <a href="#">
+                            <h2 class="secondary-heading">
+                                NodeJS HTTP in a simple way
+                            </h2>
+                        </a>
+                        <!-- END POST TITLE -->
+
+                        <!-- POST AUTHOR BOX -->
+                        <div class="author-box">
+                            <div class="author">
+                                <a href="#">
+                                    <img class="post-author-img" src="img/authors/author-4.jpg" alt="Author Image">
+                                </a>
+                                <a class="author-link" href="#">Verona Blair</a>
+                            </div>
+                            <span class="publish-date">April 07, 2023</span>
+                        </div>
+                        <!-- END POST AUTHOR BOX -->
+
+                        <!-- POST TEXT -->
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tempora modi neque. Tempora officiis, natus incidunt unde harum et nobis adipisci veritatis, sequi minus accusamus?
+                        </p>
+                        <!-- END POST TEXT -->
+                    </div>
+                    <!-- END POST BOX -->
+                </div>
+                <!-- END POST CARD -->
+
+                <!-- POST CARD -->
+                <div class="card card--post">
+
+                    <!-- POST IMAGE -->
+                    <a href="#" class="post-img-link">
+                        <img class="post-img" src="img/posts/post-js-4.jpg" alt="">
+                    </a>
+                    <!-- END POST IMAGE -->
+
+                    <!-- POST BOX -->
+                    <div class="post-box">
+                        <!-- POST TOPICS -->
+                        <ul class="topic-lists">
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">JavaScript</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Web Development</a>
+                            </li>
+                        </ul>
+                        <!-- END POST TOPICS -->
+
+                        <!-- POST TITLE -->
+                        <a href="#">
+                            <h2 class="secondary-heading">
+                                You must learn functional JavaScript programming as early as possible
+                            </h2>
+                        </a>
+                        <!-- END POST TITLE -->
+
+                        <!-- POST AUTHOR BOX -->
+                        <div class="author-box">
+                            <div class="author">
+                                <a href="#">
+                                    <img class="post-author-img" src="img/authors/author-5.jpg" alt="Author Image">
+                                </a>
+                                <a class="author-link" href="#">Ang Li</a>
+                            </div>
+                            <span class="publish-date">April 07, 2023</span>
+                        </div>
+                        <!-- END POST AUTHOR BOX -->
+
+                        <!-- POST TEXT -->
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tempora modi neque. Tempora officiis, natus incidunt unde harum et nobis adipisci veritatis, sequi minus accusamus?
+                        </p>
+                        <!-- END POST TEXT -->
+                    </div>
+                    <!-- END POST BOX -->
+                </div>
+                <!-- END POST CARD -->
+
+                <!-- POST CARD -->
+                <div class="card card--post">
+
+                    <!-- POST IMAGE -->
+                    <a href="#" class="post-img-link">
+                        <img class="post-img" src="img/posts/post-django-1.jpg" alt="">
+                    </a>
+                    <!-- END POST IMAGE -->
+
+                    <!-- POST BOX -->
+                    <div class="post-box">
+                        <!-- POST TOPICS -->
+                        <ul class="topic-lists">
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Python</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Django</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Web Development</a>
+                            </li>
+                            <li class="topic-list">
+                                <a href="#" class="topic-link">Backend</a>
+                            </li>
+                        </ul>
+                        <!-- END POST TOPICS -->
+
+                        <!-- POST TITLE -->
+                        <a href="#">
+                            <h2 class="secondary-heading">
+                                Learn Django within 30 days!
+                            </h2>
+                        </a>
+                        <!-- END POST TITLE -->
+
+                        <!-- POST AUTHOR BOX -->
+                        <div class="author-box">
+                            <div class="author">
+                                <a href="#">
+                                    <img class="post-author-img" src="img/authors/author-6.jpg" alt="Author Image">
+                                </a>
+                                <a class="author-link" href="#">Jane Meldrum</a>
+                            </div>
+                            <span class="publish-date">April 07, 2023</span>
+                        </div>
+                        <!-- END POST AUTHOR BOX -->
+
+                        <!-- POST TEXT -->
+                        <p class="post-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque tempora modi neque. Tempora officiis, natus incidunt unde harum et nobis adipisci veritatis, sequi minus accusamus?
+                        </p>
+                        <!-- END POST TEXT -->
+                    </div>
+                    <!-- END POST BOX -->
+                </div>
+                <!-- END POST CARD -->
             </div>
         </section>
         <!-- END POSTS SECTION -->
 
 		<!-- TEAMMATE SECTION -->
 		<section class="teammate-section">
-			<h1 class="primary-heading section-title margin-bottom-md">
+			<h1 class="primary-heading section-title margin-bt-lg-1">
 				Our Teammates
 			</h1>
 			<div class="container grid grid--3-cols grid--2-rows grid-gap-lg-1">
