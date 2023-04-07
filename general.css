@@ -1,3 +1,10 @@
+/* 
+===========================
+======GENERAL ELEMENT======
+===========================
+
+*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -47,6 +54,13 @@ ul {
 	list-style: none;
 }
 
+/* 
+=========================
+======GENERAL CLASS======
+=========================
+
+*/
+
 .primary-heading {
 	font-size: 5.2rem;
 	font-weight: 700;
@@ -66,7 +80,9 @@ ul {
 
 .tertiary-heading {
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 500;
+	line-height: 1.05;
+	letter-spacing: -1.25px;
 	color: #444;
 }
 
@@ -161,13 +177,6 @@ ul {
 	border-radius: 0.5rem;
 	box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.05);
 }
-
-/* 
-============================
-======END HELPER CLASS======
-============================
-
-*/
 
 /*
 ///////////////
