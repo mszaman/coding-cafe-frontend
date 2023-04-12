@@ -160,8 +160,7 @@ ul {
 }
 
 .icon {
-	height: 2.4rem;
-	width: 2.4rem;
+	font-size: 2.4rem;
 }
 
 .section-title {
@@ -176,6 +175,22 @@ ul {
 	margin: 0 auto;
 	border-radius: 0.5rem;
 	box-shadow: 0 1.2rem 1.6rem rgba(0, 0, 0, 0.05);
+}
+
+.social-link:link,
+.social-link:visited {
+	font-size: 2.4rem;
+	/* color: #1877f2; */
+	color: #f03e3e;
+	background-color: #feecec;
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+}
+
+.social-link:hover,
+.social-link:active {
+	color: #fff;
+	background-color: #f03e3e;
 }
 
 /*

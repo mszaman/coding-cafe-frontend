@@ -193,6 +193,11 @@
 	color: #888;
 }
 
+.author-link:hover,
+.author-link:active {
+	color: #555;
+}
+
 .post-text {
 	font-size: 1.6rem;
 	line-height: 1.6;
@@ -232,4 +237,58 @@
 	font-size: 1.6rem;
 	color: #343a40;
 	line-height: 1.5;
+}
+
+/* 
+//////////////////////////
+//// FOOTER SECTION ////
+//////////////////////////
+*/
+
+.footer-section {
+	padding: 12.8rem 0;
+}
+
+.footer-section .grid {
+	align-items: start;
+}
+
+.site-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3.2rem;
+	padding: 1.6rem;
+	margin: 0 8rem 0;
+}
+
+.social-info {
+	display: flex;
+	gap: 1.6rem;
+}
+
+.copyright {
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	margin-top: 1.6rem;
+}
+
+.footer-wrap {
+	padding: 1.6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 3.2rem;
+}
+
+.reference-lists {
+	display: flex;
+	flex-direction: column;
+	gap: 1.6rem;
+}
+
+.reference-link:link,
+.reference-link:visited {
+	font-size: 1.4rem;
+	color: #343a40;
 }
